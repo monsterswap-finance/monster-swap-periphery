@@ -33,7 +33,7 @@ module.exports = {
   plugins: ['truffle-plugin-verify'],
   api_keys: {
     // Add BSCSCAN_API_KEY in .env file to verify contracts deployed through truffle
-    bscscan: BSC_SCANAPI_KEY,
+    bscscan: 'YPIWURJ86XSQTFXPCKU2B32J88WGK7XIQY',
   },
   // Set default mocha options here, use special reporters etc.
   mocha: {

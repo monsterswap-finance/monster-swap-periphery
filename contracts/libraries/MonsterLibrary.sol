@@ -7,7 +7,7 @@ pragma solidity >=0.5.0;
  * Twitter:         https://twitter.com/MonsterSwapping
  * Telegram:        https://t.me/monster_finance
  * Announcements:   https://t.me/monsterswap_news
- * GitHub:          ##
+ * GitHub:          https://github.com/monsterswap-finance
  */
 
 
