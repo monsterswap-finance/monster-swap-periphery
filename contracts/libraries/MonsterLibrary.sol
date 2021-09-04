@@ -31,7 +31,7 @@ library MonsterLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'df9d0bf928c22437a857e9e95d3e47ed741c761a3122e8fd8c57e356dbc0cc65 ' // init code hash
+                hex'df9d0bf928c22437a857e9e95d3e47ed741c761a3122e8fd8c57e356dbc0cc65' // init code hash
             ))));
     }
 
