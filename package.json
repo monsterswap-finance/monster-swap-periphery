@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "migrate:testnet": "truffle migrate --network testnet",
-    "migrate:dev": "truffle migrate --reset --network development",
+    "migrate:development": "truffle migrate --network development --reset",
+    "migrate:testnet": "truffle migrate --network testnet --reset",
     "flatten": "truffle-flattener ./contracts/MonsterRouter.sol > ./contracts-flattened/MonsterRouter.sol",
     "compile": "truffle compile",
     "verify:migrations": "truffle run verify Migrations --network bsc",
