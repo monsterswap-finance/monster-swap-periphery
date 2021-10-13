@@ -11,6 +11,10 @@ const config = {
     factoryAddress: '0x',
     WBNBAddress: '0x',
   },
+  ftmmain: {
+    factoryAddress: '0x2Fe2f23896EEe898a873fF0Ef02A5F7875D438Cb',
+    WBNBAddress: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
+  },
 }
 
 exports.config = config

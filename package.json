@@ -5,11 +5,15 @@
   "scripts": {
     "migrate:development": "truffle migrate --network development --reset",
     "migrate:testnet": "truffle migrate --network testnet --reset",
+    "migrate:ftmmain": "truffle migrate --network ftmmain --reset",
+    "migrate:ftmtest": "truffle migrate --network ftmtest --reset",
     "flatten": "truffle-flattener ./contracts/MonsterRouter.sol > ./contracts-flattened/MonsterRouter.sol",
     "compile": "truffle compile",
     "verify:migrations": "truffle run verify Migrations --network bsc",
     "verify:dev": "truffle run verify MonsterRouter --network bsc",
-    "verify:testnet": "truffle run verify MonsterRouter --network testnet"
+    "verify:testnet": "truffle run verify MonsterRouter --network testnet",
+    "verify:ftmmain": "truffle run verify MonsterRouter --network ftmmain",
+    "verify:ftmtest": "truffle run verify MonsterRouter --network ftmtest"
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.0",
